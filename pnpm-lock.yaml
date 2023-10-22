@@ -2,31 +2,28 @@ lockfileVersion: '6.0'
 
 dependencies:
   axios:
-    specifier: ^1.1.3
-    version: registry.npmmirror.com/axios@1.1.3
+    specifier: ^1.5.1
+    version: registry.npmmirror.com/axios@1.5.1
   dayjs:
-    specifier: ^1.11.5
-    version: registry.npmmirror.com/dayjs@1.11.5
+    specifier: ^1.11.10
+    version: registry.npmmirror.com/dayjs@1.11.10
   fs:
     specifier: 0.0.1-security
     version: registry.npmmirror.com/fs@0.0.1-security
-  fs-extra:
-    specifier: ^11.1.1
-    version: registry.npmmirror.com/fs-extra@11.1.1
   gray-matter:
     specifier: ^4.0.3
     version: registry.npmmirror.com/gray-matter@4.0.3
   markdown-it:
-    specifier: ^13.0.1
-    version: registry.npmmirror.com/markdown-it@13.0.1
+    specifier: ^13.0.2
+    version: registry.npmmirror.com/markdown-it@13.0.2
   vditor:
-    specifier: ^3.8.17
-    version: registry.npmmirror.com/vditor@3.8.17
+    specifier: ^3.9.6
+    version: registry.npmmirror.com/vditor@3.9.6
 
 devDependencies:
   vitepress:
     specifier: 1.0.0-rc.22
-    version: registry.npmmirror.com/vitepress@1.0.0-rc.22(@algolia/client-search@4.20.0)(axios@1.1.3)(search-insights@2.9.0)
+    version: registry.npmmirror.com/vitepress@1.0.0-rc.22(@algolia/client-search@4.20.0)(axios@1.5.1)(search-insights@2.9.0)
 
 packages:
 
@@ -690,7 +687,7 @@ packages:
       - vue
     dev: true
 
-  registry.npmmirror.com/@vueuse/integrations@10.5.0(axios@1.1.3)(focus-trap@7.5.4)(vue@3.3.6):
+  registry.npmmirror.com/@vueuse/integrations@10.5.0(axios@1.5.1)(focus-trap@7.5.4)(vue@3.3.6):
     resolution: {integrity: sha512-fm5sXLCK0Ww3rRnzqnCQRmfjDURaI4xMsx+T+cec0ngQqHx/JgUtm8G0vRjwtonIeTBsH1Q8L3SucE+7K7upJQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vueuse/integrations/-/integrations-10.5.0.tgz}
     id: registry.npmmirror.com/@vueuse/integrations/10.5.0
     name: '@vueuse/integrations'
@@ -736,7 +733,7 @@ packages:
     dependencies:
       '@vueuse/core': registry.npmmirror.com/@vueuse/core@10.5.0(vue@3.3.6)
       '@vueuse/shared': registry.npmmirror.com/@vueuse/shared@10.5.0(vue@3.3.6)
-      axios: registry.npmmirror.com/axios@1.1.3
+      axios: registry.npmmirror.com/axios@1.5.1
       focus-trap: registry.npmmirror.com/focus-trap@7.5.4
       vue-demi: registry.npmmirror.com/vue-demi@0.14.6(vue@3.3.6)
     transitivePeerDependencies:
@@ -808,10 +805,10 @@ packages:
     name: asynckit
     version: 0.4.0
 
-  registry.npmmirror.com/axios@1.1.3:
-    resolution: {integrity: sha512-00tXVRwKx/FZr/IDVFt4C+f9FYairX517WoGCL6dpOntqLkZofjhu43F/Xl44UOpqa+9sLFDrG/XAnFsUYgkDA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/axios/-/axios-1.1.3.tgz}
+  registry.npmmirror.com/axios@1.5.1:
+    resolution: {integrity: sha512-Q28iYCWzNHjAm+yEAot5QaAMxhMghWLFVf7rRdwhUI+c2jix2DUXjAHXVi+s1ibs3mjPO/cCgbA++3BjD0vP/A==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/axios/-/axios-1.5.1.tgz}
     name: axios
-    version: 1.1.3
+    version: 1.5.1
     dependencies:
       follow-redirects: registry.npmmirror.com/follow-redirects@1.15.3
       form-data: registry.npmmirror.com/form-data@4.0.0
@@ -833,10 +830,10 @@ packages:
     version: 3.1.2
     dev: true
 
-  registry.npmmirror.com/dayjs@1.11.5:
-    resolution: {integrity: sha512-CAdX5Q3YW3Gclyo5Vpqkgpj8fSdLQcRuzfX6mC6Phy0nfJ0eGYOeS7m4mt2plDWLAtA4TqTakvbboHvUxfe4iA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dayjs/-/dayjs-1.11.5.tgz}
+  registry.npmmirror.com/dayjs@1.11.10:
+    resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dayjs/-/dayjs-1.11.10.tgz}
     name: dayjs
-    version: 1.11.5
+    version: 1.11.10
     dev: false
 
   registry.npmmirror.com/delayed-stream@1.0.0:
@@ -942,17 +939,6 @@ packages:
       combined-stream: registry.npmmirror.com/combined-stream@1.0.8
       mime-types: registry.npmmirror.com/mime-types@2.1.35
 
-  registry.npmmirror.com/fs-extra@11.1.1:
-    resolution: {integrity: sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fs-extra/-/fs-extra-11.1.1.tgz}
-    name: fs-extra
-    version: 11.1.1
-    engines: {node: '>=14.14'}
-    dependencies:
-      graceful-fs: registry.npmmirror.com/graceful-fs@4.2.11
-      jsonfile: registry.npmmirror.com/jsonfile@6.1.0
-      universalify: registry.npmmirror.com/universalify@2.0.0
-    dev: false
-
   registry.npmmirror.com/fs@0.0.1-security:
     resolution: {integrity: sha512-3XY9e1pP0CVEUCdj5BmfIZxRBTSDycnbqhIOGec9QYtmVH2fbLpj86CFWkrNOkt/Fvty4KZG5lTglL9j/gJ87w==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fs/-/fs-0.0.1-security.tgz}
     name: fs
@@ -968,12 +954,6 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
-
-  registry.npmmirror.com/graceful-fs@4.2.11:
-    resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.11.tgz}
-    name: graceful-fs
-    version: 4.2.11
-    dev: false
 
   registry.npmmirror.com/gray-matter@4.0.3:
     resolution: {integrity: sha512-5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/gray-matter/-/gray-matter-4.0.3.tgz}
@@ -1010,16 +990,6 @@ packages:
     version: 3.2.0
     dev: true
 
-  registry.npmmirror.com/jsonfile@6.1.0:
-    resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jsonfile/-/jsonfile-6.1.0.tgz}
-    name: jsonfile
-    version: 6.1.0
-    dependencies:
-      universalify: registry.npmmirror.com/universalify@2.0.0
-    optionalDependencies:
-      graceful-fs: registry.npmmirror.com/graceful-fs@4.2.11
-    dev: false
-
   registry.npmmirror.com/kind-of@6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/kind-of/-/kind-of-6.0.3.tgz}
     name: kind-of
@@ -1050,10 +1020,10 @@ packages:
     version: 8.11.1
     dev: true
 
-  registry.npmmirror.com/markdown-it@13.0.1:
-    resolution: {integrity: sha512-lTlxriVoy2criHP0JKRhO2VDG9c2ypWCsT237eDiLqi09rmbKoUetyGHq2uOIRoRS//kfoJckS0eUzzkDR+k2Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/markdown-it/-/markdown-it-13.0.1.tgz}
+  registry.npmmirror.com/markdown-it@13.0.2:
+    resolution: {integrity: sha512-FtwnEuuK+2yVU7goGn/MJ0WBZMM9ZPgU9spqlFs7/A/pDIUNSOQZhUgOqYCficIuR2QaFnrt8LHqBWsbTAoI5w==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/markdown-it/-/markdown-it-13.0.2.tgz}
     name: markdown-it
-    version: 13.0.1
+    version: 13.0.2
     hasBin: true
     dependencies:
       argparse: registry.npmmirror.com/argparse@2.0.1
@@ -1201,17 +1171,10 @@ packages:
     version: 1.0.6
     dev: false
 
-  registry.npmmirror.com/universalify@2.0.0:
-    resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/universalify/-/universalify-2.0.0.tgz}
-    name: universalify
-    version: 2.0.0
-    engines: {node: '>= 10.0.0'}
-    dev: false
-
-  registry.npmmirror.com/vditor@3.8.17:
-    resolution: {integrity: sha512-itaVyNwC/+xjOsTaDZKGy4BGhEcmZWkCDKaMyIH7rcbojw2H29Vg/FV1MNPcNyjZ6mvmcNlS6oZT1drDnAVFMQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vditor/-/vditor-3.8.17.tgz}
+  registry.npmmirror.com/vditor@3.9.6:
+    resolution: {integrity: sha512-97sPNHnBpfEFnk5WARCpmdKxgUiPtp0/fPLAUmzZ+axFFf7kExWHRNIUO7OTQzEUMJP/rcXESQTlYGhgKYrsOQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vditor/-/vditor-3.9.6.tgz}
     name: vditor
-    version: 3.8.17
+    version: 3.9.6
     dependencies:
       diff-match-patch: registry.npmmirror.com/diff-match-patch@1.0.5
     dev: false
@@ -1253,7 +1216,7 @@ packages:
       fsevents: registry.npmmirror.com/fsevents@2.3.3
     dev: true
 
-  registry.npmmirror.com/vitepress@1.0.0-rc.22(@algolia/client-search@4.20.0)(axios@1.1.3)(search-insights@2.9.0):
+  registry.npmmirror.com/vitepress@1.0.0-rc.22(@algolia/client-search@4.20.0)(axios@1.5.1)(search-insights@2.9.0):
     resolution: {integrity: sha512-n7le5iikCFgWMuX7sKfzDGJGlrsYQ5trG3S97BghNz2alOTr4Xp+GrB6ShwogUTX9gNgeNmrACjokhW55LNeBA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vitepress/-/vitepress-1.0.0-rc.22.tgz}
     id: registry.npmmirror.com/vitepress/1.0.0-rc.22
     name: vitepress
@@ -1273,7 +1236,7 @@ packages:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it@13.0.4
       '@vue/devtools-api': registry.npmmirror.com/@vue/devtools-api@6.5.1
       '@vueuse/core': registry.npmmirror.com/@vueuse/core@10.5.0(vue@3.3.6)
-      '@vueuse/integrations': registry.npmmirror.com/@vueuse/integrations@10.5.0(axios@1.1.3)(focus-trap@7.5.4)(vue@3.3.6)
+      '@vueuse/integrations': registry.npmmirror.com/@vueuse/integrations@10.5.0(axios@1.5.1)(focus-trap@7.5.4)(vue@3.3.6)
       focus-trap: registry.npmmirror.com/focus-trap@7.5.4
       mark.js: registry.npmmirror.com/mark.js@8.11.1
       minisearch: registry.npmmirror.com/minisearch@6.1.0
